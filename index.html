@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' />
+    <link rel="stylesheet" href="/style.css">
+    <title>Weather_App</title>
+</head>
+<body>
+    
+    <!-- wrapper -->
+    <div class = "wrapper">
+
+        <h1>Weather App</h1>
+
+        <div class="tab-cantainer">
+            <p class = "tab" data-userWeather>Your Weather</p>
+            <div class = "tab" data-searchWeather>Search Weather</div>
+        </div>
+
+        <div class="weather-cantainer">
+
+            <!-- grant location -->
+            <div class=" sub-cantainer grant-location-cantainer">
+                <img src = "./assets/location.png" alt = "location-logo" width = "80" height = "80" loading = "lazy">
+                <p>Grant Location Access</p>
+                <p>Allow Access to get weather Information</p>
+                <button class = "btn" data-grantAccess>Grant Access</button>
+            </div>
+
+            <!-- search form -->
+
+            <form class = "form-cantainer" data-searchForm>
+                <input placeholder="Search For City..." data-searchInput>
+                <button class = "btn1" type = "submit">
+                    <img src = "assets/search.png" alt = "seach-logo"  width = "20" height = "20" loading = "lazy">
+                </button>
+            </form>
+
+            <!-- loading screen canatiner -->
+            <div class = " sub-cantainer loading-cantainer">
+                <img src = "./assets/loading.gif" alt = "laoding-gif" width = "150" height = "150">
+                <p>Loading</p>
+            </div>
+            
+
+            <!-- weather-information on ui -->
+            
+            
+            <div class=" sub-cantainer user-info-cantainer">
+                
+                <!-- city name and flag -->
+                <div class = "name">
+                    <p data-cityName></p>
+                    <img data-countryFlag>
+                </div>
+                
+                <!-- weather description -->
+                <p data-weatherDesc></p>
+                
+                <!-- weather icon -->
+                <img data-weatherIcon>
+                
+                <!-- weather temp -->
+                <p data-weatherTemp></p>
+                
+                <!-- 3 cards for paramerters -->
+                <div class="parameter-cantainer">
+                    <div class="parameter">
+                        <img src = "./assets/wind.png">
+                        <p>Wind Speed</p>
+                        <p data-windSpeed></p>
+                    </div>
+                    
+                    <div class="parameter">
+                        <img src = "./assets/humidity.png">
+                        <p>Humidity</p>
+                        <p data-Humidity></p>
+                    </div>
+                    
+                    <div class="parameter">
+                        <img src = "./assets/cloud.png">
+                        <p>Clouds</p>
+                        <p data-Cloudiness></p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <!-- Error state content -->
+            <div class=" sub-cantainer error-container">
+               <img src="./assets/not-found.png" alt="not-found" width="180" height="180">
+               <p class = "error-message">City Not Found!!</p>
+           </div>
+
+           
+        </div>
+    </div>
+
+
+    <script src = "/index.js"></script>
+</body>
+</html>
