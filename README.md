@@ -4,3 +4,4 @@
 
 ## Features
 - Real-time weather updates
+- Search functionality for different locations
