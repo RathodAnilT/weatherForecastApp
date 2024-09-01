@@ -21,6 +21,8 @@
 3. **Weather Alerts**: 
    - Implement functionality to display weather alerts and warnings.  
 
+5. **Multi-language Support**: 
+   - Add support for multiple languages for international users.
 
 4. **User Accounts**: 
    - Allow users to create accounts and save favorite locations.
