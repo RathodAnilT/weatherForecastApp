@@ -5,3 +5,4 @@
 ## Features
 - Real-time weather updates
 - Search functionality for different locations
+- Display of current temperature, weather conditions, and forecasts
