@@ -10,4 +10,7 @@
 
 
 ## Future Work
-- Here are some potential improvements and features to consider for future updates:
+ Here are some potential improvements and features to consider for future updates:
+ 1. **Enhanced User Interface**: 
+   - Improve the design with modern UI/UX practices.
+   - Add animations and interactive elements.
