@@ -24,5 +24,7 @@
 5. **Multi-language Support**: 
    - Add support for multiple languages for international users.
 
+6. **Performance Optimization**: 
+   - Optimize the website for faster load times and better performance.
 4. **User Accounts**: 
    - Allow users to create accounts and save favorite locations.
