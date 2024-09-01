@@ -17,3 +17,6 @@
      
 2. **Additional Weather Metrics**: 
    - Include more detailed weather information such as humidity, wind speed, and UV index.
+
+3. **Weather Alerts**: 
+   - Implement functionality to display weather alerts and warnings.  
