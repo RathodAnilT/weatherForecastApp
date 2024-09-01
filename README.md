@@ -28,3 +28,6 @@
    - Optimize the website for faster load times and better performance.
 4. **User Accounts**: 
    - Allow users to create accounts and save favorite locations.
+
+7. **Mobile App Version**: 
+   - Develop a mobile app version for iOS and Android.
