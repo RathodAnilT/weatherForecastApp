@@ -7,3 +7,6 @@
 - Search functionality for different locations
 - Display of current temperature, weather conditions, and forecasts
 - Responsive design for various devices
+
+
+## Future Work
