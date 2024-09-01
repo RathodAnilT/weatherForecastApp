@@ -20,3 +20,7 @@
 
 3. **Weather Alerts**: 
    - Implement functionality to display weather alerts and warnings.  
+
+
+4. **User Accounts**: 
+   - Allow users to create accounts and save favorite locations.
