@@ -14,3 +14,6 @@
  1. **Enhanced User Interface**: 
    - Improve the design with modern UI/UX practices.
    - Add animations and interactive elements.
+     
+2. **Additional Weather Metrics**: 
+   - Include more detailed weather information such as humidity, wind speed, and UV index.
